@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 from ultralytics import YOLO
 
 # Define the path to the saved model
-model_path = r'C:\Users\parth sawant\Desktop\digit recognition\best_model_digit.pt'
+model_path = 'best_model_digit.pt'
 
 # Load the YOLO model
 model = YOLO(model_path)
